@@ -17,12 +17,12 @@
 #include<stdio.h>
 
 int main() {
-    int N ;
+    int C ;
     printf( "User input :\n" ) ;
-    scanf( "%d", &N ) ;
+    scanf( "%d", &C ) ;
 
-    float fahrenheit = N * 33.8 ;
-    printf( "%d degree Celsius =  %.1f degree Fahrenheit", N , fahrenheit ) ;
+    float fahrenheit = 1.8 * C + 32 ;
+    printf( "%d degree Celsius = %0.1f degree Fahrenheit", C , fahrenheit ) ;
 
     return 0;
 }
