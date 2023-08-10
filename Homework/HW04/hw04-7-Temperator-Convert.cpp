@@ -13,3 +13,16 @@
     Output:
         36 degree Celsius = 96.8 degree Fahrenheit
 */
+
+#include<stdio.h>
+
+int main() {
+    int C ;
+    printf( "User input :\n" ) ;
+    scanf( "%d", &C ) ;
+
+    float fahrenheit = 1.8 * C + 32 ;
+    printf( "%d degree Celsius = %0.1f degree Fahrenheit", C , fahrenheit ) ;
+
+    return 0;
+}
